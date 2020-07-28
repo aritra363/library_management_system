@@ -1,0 +1,18 @@
+<html>
+<head>
+    <title>Login Here</title>
+    <link rel="stylesheet" href="style2.css">
+    <script src="add.js"></script>
+    </head>
+    <body>
+        <h1 style="margin-left:520px;"><my>L</my>ogin</h1>
+    <form action="Login.php" method="post" id="regfr" style="margin-top:10px;" onsubmit="return logvalid()">
+        <log>Username:</log>&nbsp;<input name="usname" type="text" class="field" placeholder="Select a Username" id="usnml" onkeyup="letter(this)"><br/><br/>
+        <log>Password:</log>&nbsp;<input name="pswrd" type="password" class="field" placeholder="" id="passl" onkeyup="letter(this)"><br/><br/>
+         <input type="submit" value="Login" id="but1" style="padding-left:20px;padding-right:20px;"> 
+         <input type="reset" value="Clear" id="but1"> 
+        <input type="button" value="Register" onclick="window.location.href='Register.html'" id="but1" style="margin-top:2px;">
+        </form>
+        
+    </body>
+</html>

@@ -1,0 +1,18 @@
+<html>
+<head>
+    <title>Register Here</title>
+    <link rel="stylesheet" href="style2.css">
+    <script src="add.js"></script>
+    </head>
+    <body>
+        <h1 style="margin-left:520px;"><my>R</my>egister</h1>
+    <form action="Register.php" method="post" id="regfr" onsubmit="return regvalid()" style="margin-top:10px;">
+        <log>Username:</log>&nbsp;<input name="usname" type="text" class="field" placeholder="Select a Username" id="usnmr" onkeyup="letter(this)"><br/><br/>
+        <log>Password:</log>&nbsp;<input name="pswrd" type="password" class="field" placeholder="" id="passr" onkeyup="letter(this)"><br/><br/>
+         <input type="submit" value="Register" id="but1"> 
+         <input type="reset" value="Clear" id="but1"> 
+         <input type="button" value="Login" onclick="window.location.href='Login.html'" id="but1" style="margin-top:2px;">
+        </form>
+       
+    </body>
+</html>
